@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"module": "umd",
+		"target": "es5",
+		"moduleResolution": "node",
+		"lib": [
+			"dom",
+			"es2015"
+		],
+		"types": [
+			"jasmine"
+		],
+		"sourceRoot": "",
+		"inlineSources": true,
+		"inlineSourceMap": true,
+		"removeComments": true,
+		"allowUnreachableCode": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"declaration": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"noFallthroughCasesInSwitch": true,
+		"skipLibCheck": true
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"./src/**/*.ts",
+		"./test/**/*.ts"
+	]
+}

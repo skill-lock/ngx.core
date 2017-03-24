@@ -8,6 +8,8 @@ export { KeyValuePair } from "./collections/key-value-pair";
 
 export { NonArray, PartialObject } from "./object/object";
 
+export { isExternalUrl } from "./url/url.util";
+
 export { TruncatePipe } from "./pipes/truncate.pipe";
 export { DictionaryToArrayPipe } from "./pipes/dictionary-to-array.pipe";
 export { TakePipe } from "./pipes/take.pipe";

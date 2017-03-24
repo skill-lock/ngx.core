@@ -1,6 +1,6 @@
 {
   "name": "@skl/ngx.global",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Skl global",
   "main": "dist/umd/index.js",
   "module": "dist/es2015/index.js",

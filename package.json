@@ -1,7 +1,7 @@
 {
   "name": "@skill-lock/ngx.core",
-  "version": "0.3.0",
-  "description": "Skl core",
+  "version": "0.1.0",
+  "description": "Skill Lock NGX Core",
   "main": "dist/umd/index.js",
   "module": "dist/es2015/index.js",
   "directories": {

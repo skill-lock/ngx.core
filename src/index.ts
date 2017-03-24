@@ -20,4 +20,4 @@ export { WINDOW, WindowRef } from "./platform/window";
 
 export * from "./utils/index";
 
-export { GlobalModule, GLOBAL_PIPES, GLOBAL_PROVIDERS } from "./module";
+export { CoreModule, CORE_PIPES, CORE_PROVIDERS } from "./module";

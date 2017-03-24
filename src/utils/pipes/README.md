@@ -1,5 +1,4 @@
 # Pipes
-Global angular pipes.
 
 ## Truncate
 General usage: `{{ string | truncate:newLength(number):newSuffix(string) }}`

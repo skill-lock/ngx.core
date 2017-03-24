@@ -6,11 +6,11 @@ import { WindowRef, WINDOW } from "./platform/window";
 
 import { UTIL_PIPES } from "./utils/index";
 
-export const GLOBAL_PIPES = [
+export const CORE_PIPES = [
 	...UTIL_PIPES
 ];
 
-export const GLOBAL_PROVIDERS: Provider[] = [
+export const CORE_PROVIDERS: Provider[] = [
 	DocumentRef,
 	WindowRef,
 	{ provide: WINDOW, useFactory: _window }
@@ -21,15 +21,15 @@ export const GLOBAL_PROVIDERS: Provider[] = [
 		HttpModule
 	],
 	declarations: [
-		GLOBAL_PIPES
+		CORE_PIPES
 	],
 	exports: [
-		GLOBAL_PIPES,
+		CORE_PIPES,
 		HttpModule
 	],
-	providers: GLOBAL_PROVIDERS
+	providers: CORE_PROVIDERS
 })
-export class GlobalModule {
+export class CoreModule {
 }
 
 /**

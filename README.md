@@ -1,4 +1,4 @@
-# skl.ngx.global
+# skl.ngx.core
 A library that consists of pipes, utilities and services to help you with development
 
 ## Getting Started
@@ -6,17 +6,17 @@ A library that consists of pipes, utilities and services to help you with develo
 ### Installation
 
 ```shell
-npm install @skl/ngx.global
+npm install @skl/ngx.core
 ```
 
 ### Register module
 
 ```ts
-import { GlobalModule } from "@skl/ngx.global";
+import { CoreModule } from "@skl/ngx.core";
 
 @NgModule({
     imports: [
-        GlobalModule
+        CoreModule
     ]
 })
 export class AppModule {

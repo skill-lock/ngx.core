@@ -25,19 +25,6 @@ export class AppModule {
 ```
 
 ## Contributing to the project
-In order to contribute please read the [Contribution guidelines][contribWiki].
-
-### Setup Machine for Development
-Install/setup the machine by following [Setup Machine for Development - Libraries WIKI][setupMachineWiki].
-
-### Setup Project to Develop
-
-#### Cloning Repo
-
-- Open SourceTree
-- Clone project repo from [project git][projectGit]
-- Switch to `develop` branch
-
 
 #### Install Dependencies
 The following process need to be executed in order to get started.

@@ -67,4 +67,3 @@ gulp tdd
 ```
 gulp prepare-release --bump major|minor|patch|prerelease (default: patch) --version-suffix beta (default: rc - only applies to prerelease)
 ```
-Check out the [release workflow guide][releaseWorkflowWiki] in order to guide you creating a release and distributing it.

@@ -6,7 +6,7 @@
 Updates the state by merging the changes and return a new state value.
 
 ```ts
-import { updateState } from "@skl/ngx.core";
+import { updateState } from "@skill-lock/ngx.core";
 
     return updateState(state, {
         isBusy: false,
@@ -24,7 +24,7 @@ import { updateState } from "@skl/ngx.core";
 Updates a state property by merging the changes into the state property and it also returns a new state.
 
 ```ts
-import { updateStateItem } from "@skl/ngx.core";
+import { updateStateItem } from "@skill-lock/ngx.core";
 
     return updateStateItem({
         state: state,
@@ -50,7 +50,7 @@ Updates (add/update) an item within the state (which is a dictionary/map state) 
 by finding, merging the changes and returns a new state.
 
 ```ts
-import { updateMapState } from "@skl/ngx.core";
+import { updateMapState } from "@skill-lock/ngx.core";
 
 case heroActionType.updateItem: {
     const { id } = action.payload;
@@ -76,7 +76,7 @@ property `keySelector` (default `id`) as the id within the provided item.
 Finding, merging each individual item changes and returns a new state.
 
 ```ts
-import { updateAllMapState } from "@skl/ngx.core";
+import { updateAllMapState } from "@skill-lock/ngx.core";
 
     const changes: Partial<Team> = [
         { key: "rmadrid", title: "Real Madrid" },

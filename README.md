@@ -1,4 +1,4 @@
-# skl.ngx.core
+# @skill-lock/ngx.core
 A library that consists of pipes, utilities and services to help you with development
 
 ## Getting Started
@@ -6,13 +6,13 @@ A library that consists of pipes, utilities and services to help you with develo
 ### Installation
 
 ```shell
-npm install @skl/ngx.core
+npm install @skill-lock/ngx.core
 ```
 
 ### Register module
 
 ```ts
-import { CoreModule } from "@skl/ngx.core";
+import { CoreModule } from "@skill-lock/ngx.core";
 
 @NgModule({
     imports: [

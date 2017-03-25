@@ -1,6 +1,6 @@
-import { Injectable, Inject, InjectionToken } from "@angular/core";
+import { Injectable, Inject, OpaqueToken } from "@angular/core";
 
-export const WINDOW = new InjectionToken("WindowToken");
+export const WINDOW = new OpaqueToken("WindowToken");
 
 @Injectable()
 export class WindowRef {
